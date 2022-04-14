@@ -16,11 +16,11 @@ Además, por limitaciones de almacenamiento, se debe descargar por separado el a
 
 ## Justificaciones
 
-*¿Por qué openpyxl?*
+*¿Por qué openpyxl?*  
 Frente a pandas, lo consideré una mejor alternativa ya que en este trabajo en concreto solo se utilizaron archivos excel, y esta primera librería es más robusta para ese caso.  
 
-*¿Por qué utilicé el logger de raíz?*
+*¿Por qué utilicé el logger de raíz?*  
 Si utilizaba varios loggers, cabía la posibilidad de que en algún punto me confunda y acceda a la librería base para loguear. Si utilizo el de raíz, una vez lo configuro puedo confundirme de librería y obtener aún así prácticamente el mismo resultado.  
 
-*¿Por qué agregué un directorio de archivos temporales?*
+*¿Por qué agregué un directorio de archivos temporales?*  
 A la hora de desarrollar el proyecto, no solo me di cuenta que si fuese un caso real estaría perdiendo información relevante de forma permanente, sino que también resultaba muy tedioso eliminar archivos a la hora de testear y tener que volver a descargarlos para continuar.  
